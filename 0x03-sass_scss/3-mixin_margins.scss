@@ -1,0 +1,14 @@
+guillaume@ubuntu:~/$ sass 8-mixin_margins.scss | tail -n +2
+
+@mixin margin($left, $right){
+    margin-left: $left;
+    margin-right: $right;
+}
+body {
+  @include  margin(10px, 10px);
+ }
+
+div {
+   @include margin(15px, 15px);
+}
+guillaume@ubuntu:~/$

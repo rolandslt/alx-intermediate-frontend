@@ -1,12 +1,12 @@
-You must use a Sass variable
 guillaume@ubuntu:~/$ sass 1-color_variable.scss | tail -n +2
 
+$main-color: #3D3D3D
 body {
-  color: #3D3D3D; 
+  color: $main-color; 
 }
 
 p {
-  color: #3D3D3D;
+  color: $main-color;
 }
 
 guillaume@ubuntu:~/$ 
